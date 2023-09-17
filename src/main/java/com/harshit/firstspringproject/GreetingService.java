@@ -8,6 +8,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
 public class GreetingService {
+    //special message for commit
     private static final String template="Hello, %s!";
     private final AtomicLong counter=new AtomicLong();
     @GetMapping("/")
